@@ -52,7 +52,7 @@ searchBook =(e) => {
             <div>
 <Search seachBook={this.searchBook} handleSearch= {this.handleSearch} />
  {/* <div>{fox}</div> */}
- <BookList books={this.props.books}/>
+ <BookList books={this.props.books} handleFaveToggle={this.props.handleFaveToggle}/>
             </div>
         )
     }

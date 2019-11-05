@@ -22,19 +22,21 @@ constructor(props){
 }
 
 
-// handleFaveToggle = ()=> {
-//   const MyBook=[...this.state.books];
-//   const bookIndex = MyBooks.indexOf(book)
+handleFaveToggle = (book)=> {
+  console.log(book)
+  let MyBook=[...this.state.MyBooks];
+  const bookIndex = MyBook.indexOf(book)
 
-//     if (bookIndex !== -1){
-//       faves.splice(bookIndex, 1);
-//       console.log(`Removing ${books.title} From MyBooks`)
-//    }else{
-//      faves.push(film);
-//      console.log(`Adding ${books.title} To MyBooks`)
-//    }
-//    this.setState({MyBook})
-//  }
+    if (bookIndex !== -1){
+      MyBook.splice(bookIndex, 1);
+      // console.log(`Removing ${book.title} From MyBooks`)
+   }else{
+    // MyBook.push(book);
+    MyBook = [...MyBook,book]
+    //  console.log(`Adding ${book.title} To MyBooks`)
+   }
+   this.setState({MyBooks: MyBook})
+ }
 
 
 
@@ -70,8 +72,13 @@ constructor(props){
     <div>
       
      <Route exact path ='/' component={Home}/>
-     < Route path ='/Books' render={(...props) => <Books books={this.state.books} getBooks={this.getBooks} MyBooks={this.state.MyBooks} onFaveToggle={this.handleFaveToggle}/>}/>
-     {/* < Route path ='/MyBooks' component ={MyBooks}/> */}
+     < Route path ='/Books' render={(...props) => 
+     <Books books={this.state.books}
+      getBooks={this.getBooks}
+       MyBooks={this.state.MyBooks}
+        handleFaveToggle={this.handleFaveToggle}/>}/>
+     < Route path ='/MyBooks' render={(...props) => 
+     <MyBooks MyBooks={this.state.MyBooks}/>}/>
      {/* <Route path='/contact' component={Contact}/> */}
    </div>
    </Router>

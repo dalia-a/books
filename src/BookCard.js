@@ -2,13 +2,17 @@ import React from 'react';
 
 const BookCard =(props) => {
     return(
-   
+        
+        // author={item.volumeInfo.authors}
+        
         <div className="card my-card" >
-         <img src={props.image} className="card-img-top" alt="..."/>
+       <img src={props.book.imageLinks.thumbnail}/>
+         {/* <img src={props.image} className="card-img-top" alt="..."/> */}
             <div className="card-body ">
-                <h5 className="card-title">{props.title}</h5>
-                <p className="card-text">publishedDate: {props.published === '0000' ? 'Not available':props.published.substring(0,4)}</p>
-                <button  className="btn btn-info mybtn">Add or remove to MyBooks </button>
+                <h5 className="card-title">{props.book.title}</h5>
+                <h6>{props.book.authors}</h6>
+                <p className="card-text">publishedDate: {props.book.publishedDate === '0000' ? 'Not available':props.book.publishedDate.substring(0,4)}</p>
+                <button  className="btn btn-info mybtn" onClick={props.handleFaveToggle}>Add or remove to MyBooks </button>
         </div>
         </div>
     

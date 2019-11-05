@@ -1,26 +1,32 @@
 import React, { Component } from "react";
 
 class MyBooks extends Component {
-
-  constructor(props){
-    super(props)
-    this.state = {
-      
-    }
-  }
-
-  handleClick = (e)=> {
-    e.stopPropagation()
-    console.log("click")
-    this.props.onFaveToggle()
-  }
-  render() {
-    const isMyBooks = this.props.isMyBooks ? 'remove_from_queue' : 'add_to_queue'
-    const message = this.props.isMyBooks ? "remove_from_queue" : "add_to_queue"
+    
+    render() {
+        let allbook;
+        {console.log(this.props.MyBooks.length)}
+        if( this.props.MyBooks.length>0 )
+        {console.log(this.props.MyBooks)
+            allbook=this.props.MyBooks.map((book,index)=>{
+            
+            return (
+                <div>
+                     <div className="card my-card" >
+       <img  src={book.volumeInfo.imageLinks.thumbnail}/> </div>
+                {/* <img src={book.imageLinks.thumbnail}/> */}
+                 <h4>{book.volumeInfo.title}</h4>
+                <h5> {book.volumeInfo.authors} </h5> 
+                <p>{book.publishedDate}</p>
+                 
+            </div>
+        )
+    })} 
     return (
-      <div className={`film-row-fave ${isMyBooks}`} onClick={this.handleClick}>
-        <p className="material-icons">{message}</p>
-      </div>
+        
+        <div>
+{allbook}
+    
+    </div>
     );
   }
 }
