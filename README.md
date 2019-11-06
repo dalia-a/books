@@ -11,6 +11,8 @@ Book App Allow you to find bookthat you need and show the name of authors and pu
 - Boo﻿﻿t﻿﻿﻿﻿﻿﻿s﻿tra﻿p.
 - A﻿﻿﻿﻿﻿xios﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿.
 - Particles.js.
+- Flaticon.
+- MockFlow.
 
 ## ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿ Wireframe:﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿
 ![](https://user-images.githubusercontent.com/55412845/68333265-44362300-00e9-11ea-8dbf-8a474bd7cbcf.png)
