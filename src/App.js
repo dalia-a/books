@@ -89,7 +89,7 @@ clearAll=()=>{
 
     <div>
       
-     <Route exact path ='/' component={Home}/>
+     <Route path ='/' component={Home}/>
      < Route path ='/Books' render={(...props) => 
      <Books books={this.state.books}
       getBooks={this.getBooks}
