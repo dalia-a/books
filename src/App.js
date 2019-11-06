@@ -82,7 +82,7 @@ clearAll=()=>{
     
        
       <Router>
-      <Navagation />
+      <Navagation MyBooks={this.state.MyBooks.length} />
       
         
 

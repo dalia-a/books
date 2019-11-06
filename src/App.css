@@ -4,30 +4,11 @@
  
 }
 
-/* header {
-  padding: 30px 0 30px 0;
-  background: #343a40;
-  color: #fff;
-  text-align: center;
-}
-
-header h1 {
-  display: inline;
-  margin-left: 15px;
-  font-weight: 300;
-}
-
-input:focus, 
-select:focus
-{
-  outline: none;
-} */
-
-.input {
+/* .input {
   width: 100px;
   padding: 20px 0 20px 0;
   margin: 0 auto;
-}
+} */
 .search form {
   width: 500px;
   margin: 0 auto;
@@ -71,7 +52,7 @@ input {
   border-radius: 5px;
   overflow: hidden;
 }
-.desc {
+/* .desc {
   height: 120px;
   padding: 10px;
 }
@@ -92,22 +73,33 @@ input {
 
 .desc p {
   color: #6c757d;
-}
+} */
 
 /* img {
   width: 100%;
   height: 250px;
 } */
 
-select {
+/* select {
   background-color: #343a40;
   color: #fff;
   height: 32px;
   width: 40px;
   position: absolute;
   top: -2px;
-}
+} */
 
+/* .wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  /* margin-bottom: -50px;
+}
+.copyright,
+.push {
+  height: 50px;
+} */ 
 
 .copyright{
   text-align: center;
@@ -127,6 +119,9 @@ margin-left: 5rem;}
   margin: 2rem;
 }
 
+.email {
+width: 30rem;
+}
 
 .this-app{
   text-align: center;
@@ -142,9 +137,17 @@ margin-left: 5rem;}
   margin-left: 30%;
   margin-right: 30%;
   margin-top: 10%; 
+  position:absolute;
   
 }
 
-/* .mybtn{
-position: ;
-/* padding: 2%; */
+.Add{
+  color:rgb(203,52,181);
+  font-size:.8em;
+
+}
+
+.card-body {
+height: 1%;
+}
+
