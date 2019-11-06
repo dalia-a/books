@@ -4,7 +4,7 @@
  
 }
 
-header {
+/* header {
   padding: 30px 0 30px 0;
   background: #343a40;
   color: #fff;
@@ -21,7 +21,7 @@ input:focus,
 select:focus
 {
   outline: none;
-}
+} */
 
 .input {
   width: 100px;
@@ -104,12 +104,47 @@ select {
   color: #fff;
   height: 32px;
   width: 40px;
-  position: relative;
+  position: absolute;
   top: -2px;
 }
 
-/* .mybtn {
+
+.copyright{
+  text-align: center;
+  font-size: .6em;
+  color:#effffa;
+  margin-top: 0;
+}
+.copyright span {
+  font-style: oblique;
+  font-size: 1.2em;
+}
+
+.nav-item {
+margin-left: 5rem;}
+
+.my-card {
+  margin: 2rem;
+}
+
+
+.this-app{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: lightcyan ; 
+  opacity: 0.7; 
+  padding-top: 40px; 
+  padding-right: 30px; 
+  padding-left: 30px; 
+  padding-bottom: 40px;
+  border-radius: 25px;
+  font-size: 22px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%; 
   
-} */
+}
 
-
+/* .mybtn{
+position: ;
+/* padding: 2%; */

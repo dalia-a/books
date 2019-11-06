@@ -3,12 +3,11 @@ import './App.css';
  import Books from './Books';
  import Navagation from './Navagation';
  import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
- import Footer from "./Footer";
  import Home from './Home';
  import MyBooks from './MyBooks';
  import Contact from './Contact'
  import axios from 'axios';
-
+ import Footer from "./footer";
 
  class App extends React.Component{
 
@@ -99,6 +98,8 @@ clearAll=()=>{
      < Route path ='/MyBooks' render={(...props) => 
      <MyBooks MyBooks={this.state.MyBooks}  HandleClear={this.HandleClear} clearAll={this.clearAll}/>}/>
      {/* <Route path='/contact' component={Contact}/> */}
+     <Route  path ='/Contact' component={Contact}/>
+     <Footer/>
    </div>
    </Router>
   
