@@ -25,18 +25,36 @@ constructor(props){
 handleFaveToggle = (book)=> {
   console.log(book)
   let MyBook=[...this.state.MyBooks];
-  const bookIndex = MyBook.indexOf(book)
+  
 
-    if (bookIndex !== -1){
-      MyBook.splice(bookIndex, 1);
-      // console.log(`Removing ${book.title} From MyBooks`)
-   }else{
     // MyBook.push(book);
     MyBook = [...MyBook,book]
     //  console.log(`Adding ${book.title} To MyBooks`)
-   }
+   
    this.setState({MyBooks: MyBook})
  }
+
+ HandleClear =(book)=>{
+   console.log(book)
+  let MyBook=[...this.state.MyBooks];
+  const bookIndex = MyBook.indexOf(book)
+  if (bookIndex !== -1){
+    MyBook.splice(bookIndex, 1);
+  }
+  // console.log(book)
+  this.setState({
+    MyBooks: MyBook
+  })
+  // console.log(this.state.books)
+}
+
+clearAll=()=>{
+  // console.log("llllllllll")
+  this.setState({
+    MyBooks: []
+  })
+  // console.log(this.state.MyBook)
+}
 
 
 
@@ -77,8 +95,9 @@ handleFaveToggle = (book)=> {
       getBooks={this.getBooks}
        MyBooks={this.state.MyBooks}
         handleFaveToggle={this.handleFaveToggle}/>}/>
+        
      < Route path ='/MyBooks' render={(...props) => 
-     <MyBooks MyBooks={this.state.MyBooks}/>}/>
+     <MyBooks MyBooks={this.state.MyBooks}  HandleClear={this.HandleClear} clearAll={this.clearAll}/>}/>
      {/* <Route path='/contact' component={Contact}/> */}
    </div>
    </Router>

@@ -12,7 +12,7 @@ const BookCard =(props) => {
                 <h5 className="card-title">{props.book.title}</h5>
                 <h6>{props.book.authors}</h6>
                 <p className="card-text">publishedDate: {props.book.publishedDate === '0000' ? 'Not available':props.book.publishedDate.substring(0,4)}</p>
-                <button  className="btn btn-info mybtn" onClick={props.handleFaveToggle}>Add or remove to MyBooks </button>
+                <button  className="btn btn-info mybtn" onClick={props.handleFaveToggle}>Add To MyBooks </button>
         </div>
         </div>
     
