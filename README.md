@@ -13,6 +13,7 @@ Book App Allow you to find bookthat you need and show the name of authors and pu
 - Particles.js.
 - Flaticon.
 - MockFlow.
+- GoogleBook Api.
 
 ## ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿ Wireframe:﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿
 ![](https://user-images.githubusercontent.com/55412845/68333265-44362300-00e9-11ea-8dbf-8a474bd7cbcf.png)
@@ -33,6 +34,7 @@ Book App Allow you to find bookthat you need and show the name of authors and pu
 - ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿As a user, I shoul﻿d b﻿e able to﻿﻿﻿﻿﻿﻿﻿﻿ ﻿﻿﻿﻿r﻿e﻿﻿m﻿o﻿﻿v﻿e﻿﻿ sing﻿le﻿﻿ ﻿book﻿﻿﻿﻿ ﻿fr﻿﻿﻿om﻿﻿﻿ ﻿﻿﻿﻿my﻿ li﻿st .﻿﻿﻿﻿﻿﻿﻿﻿﻿
 - ﻿﻿As a user, I shoul﻿d b﻿e able to﻿﻿﻿﻿﻿﻿﻿﻿ ﻿﻿﻿﻿r﻿e﻿﻿m﻿o﻿﻿v﻿e﻿﻿ ﻿all﻿ ﻿﻿book﻿﻿﻿s﻿﻿﻿ ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿fr﻿﻿﻿om﻿﻿﻿ ﻿﻿﻿﻿my﻿ li﻿st .﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿
+- As a user, I should be able to access books and read it .
 ﻿
 ## ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿ My Code Story:﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿
 ﻿
