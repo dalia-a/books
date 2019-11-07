@@ -9,7 +9,6 @@ Book App Allow you to find bookthat you need and show the name of authors and pu
 - Re﻿act﻿﻿﻿﻿﻿﻿﻿﻿.﻿﻿﻿﻿js﻿﻿﻿﻿﻿﻿﻿﻿﻿.
 -﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿ ﻿Rea﻿ct﻿﻿﻿ ﻿﻿﻿﻿﻿﻿Router﻿
 - Boo﻿﻿t﻿﻿﻿﻿﻿﻿s﻿tra﻿p.
-- A﻿﻿﻿﻿﻿xios﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿.
 - Particles.js.
 - Flaticon.
 - MockFlow.
